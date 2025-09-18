@@ -7,7 +7,7 @@ The application also includes a loading spinner while data is being fetched.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Fetches user data from a public REST API.
 - Displays user details in a clean card layout.
@@ -17,7 +17,7 @@ The application also includes a loading spinner while data is being fetched.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **ReactJS** (Frontend framework)
 - **CSS3** (Styling)
@@ -27,7 +27,7 @@ The application also includes a loading spinner while data is being fetched.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 project-folder/
 │-- public/
@@ -48,7 +48,7 @@ project-folder/
 
 ---
 
-## ⚡ Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
  
@@ -62,7 +62,7 @@ npm start
 
 
 This will run the app at http://localhost:3000.
-🔗 APIs Used
+# APIs Used
 
 User Data (JSONPlaceholder):
 https://jsonplaceholder.typicode.com/users
@@ -75,57 +75,33 @@ https://avatars.dicebear.com/v2/avataaars/{{username}}.svg?options[mood][]=happy
 Example:
 
 https://avatars.dicebear.com/v2/avataaars/Bret.svg?options[mood][]=happy
-🎨 UI Features
+# UI Features
 
-User information is displayed in cards.
+--User information is displayed in cards.
 
-Each card shows:
+--Each card shows:
 
-Avatar
+--Avatar
 
-Name
+--Name
 
-Email
+--Email
 
-Phone
+--Phone
 
-Company
+--Company
 
-Website
+--Website
 
-Address
+--Address
 
-Loading spinner appears while fetching data.
-🚀 Deployment on Vercel (Optional)
+--Loading spinner appears while fetching data.
+## 🔗 Project Links
 
-You can also deploy this project live using Vercel:
-
-Push your project to a GitHub repository (exclude node_modules).
-
-Go to Vercel
- and sign in with GitHub.
-
-Click New Project → Import your repository.
-
-Configure project settings:
-
-Framework Preset: React
-
-Build Command: npm run build
-
-Output Directory: build
-
-Click Deploy and wait for the process to finish.
-
-Vercel will provide you with a live URL to share.
-
-Example:
-
-https://your-app-name.vercel.app
-
-
-👨‍💻 Author
-
+- **GitHub Repository:** [Click Here](https://github.com/panasasatyassai/user-directory-app)
+- **Live Demo on Vercel (Optional):** [View App](https://user-directory-app-sooty.vercel.app/)
+- 
+# Author 
 Developed by Panasa Satya Sai
 B.Tech – Computer Science and Engineering (CSE)
 
