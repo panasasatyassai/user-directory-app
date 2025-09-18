@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+# React User Directory App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based application that fetches and displays user information from the **JSONPlaceholder API**.  
+Each user is displayed in a card layout with details such as name, email, phone, company, website, and address.  
+Additionally, a unique avatar is generated for every user using the **DiceBear Avatars API**.  
+The application also includes a loading spinner while data is being fetched.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- Fetches user data from a public REST API.
+- Displays user details in a clean card layout.
+- Generates unique avatars for each user based on their `username`.
+- Shows a **loading spinner** while data is being fetched.
+- Built with **React functional components** and **hooks** (`useState`, `useEffect`).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **ReactJS** (Frontend framework)
+- **CSS3** (Styling)
+- **JavaScript (ES6+)**
+- **JSONPlaceholder API** (User data)
+- **DiceBear Avatars API** (User avatars)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+project-folder/
+│-- public/
+│-- src/
+│ │-- components/
+│ │ │-- UserList.js # Fetches data & renders list of user cards
+│ │ │-- UserList.css # Styles for user list
+│ │ │-- UserCard.js # Displays a single user card
+│ │ │-- UserCard.css # Styles for user card
+│ │-- App.js # Root component
+│ │-- index.js # Entry point
+│
+│-- package.json # Project dependencies & scripts
+│-- package-lock.json # Dependency lock file
+│-- README.md # Project documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚡ Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Clone the Repository
+ 
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+2. Install Dependencies
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the Development Server
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+This will run the app at http://localhost:3000.
+🔗 APIs Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+User Data (JSONPlaceholder):
+https://jsonplaceholder.typicode.com/users
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+User Avatars (DiceBear):
 
-### Code Splitting
+https://avatars.dicebear.com/v2/avataaars/{{username}}.svg?options[mood][]=happy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Example:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+https://avatars.dicebear.com/v2/avataaars/Bret.svg?options[mood][]=happy
+🎨 UI Features
 
-### Making a Progressive Web App
+User information is displayed in cards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Each card shows:
 
-### Advanced Configuration
+Avatar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Name
 
-### Deployment
+Email
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Phone
 
-### `npm run build` fails to minify
+Company
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Website
+
+Address
+
+Loading spinner appears while fetching data.
+🚀 Deployment on Vercel (Optional)
+
+You can also deploy this project live using Vercel:
+
+Push your project to a GitHub repository (exclude node_modules).
+
+Go to Vercel
+ and sign in with GitHub.
+
+Click New Project → Import your repository.
+
+Configure project settings:
+
+Framework Preset: React
+
+Build Command: npm run build
+
+Output Directory: build
+
+Click Deploy and wait for the process to finish.
+
+Vercel will provide you with a live URL to share.
+
+Example:
+
+https://your-app-name.vercel.app
+
+
+👨‍💻 Author
+
+Developed by Panasa Satya Sai
+B.Tech – Computer Science and Engineering (CSE)
+
+
+
+
+
+
+
+
+
+
+
+
